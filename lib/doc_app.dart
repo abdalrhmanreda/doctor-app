@@ -28,7 +28,7 @@ class DocApp extends StatelessWidget {
           top: false,
           bottom: true,
           child: MaterialApp(
-            locale: const Locale('ar', 'EG'),
+            locale: const Locale('en', 'EG'),
             localizationsDelegates: AppLocalizations.localizationsDelegates,
             supportedLocales: AppLocalizations.supportedLocales,
             debugShowCheckedModeBanner: false,
