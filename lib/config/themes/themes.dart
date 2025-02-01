@@ -18,7 +18,7 @@ class Style {
     appBarTheme: AppBarTheme(
       backgroundColor: AppColors.kScaffoldLightColor,
       elevation: 0,
-      titleTextStyle: GoogleFonts.elMessiri(
+      titleTextStyle: GoogleFonts.dmSans(
         color: AppColors.kPrimaryColor,
         fontSize: 16.sp,
       ),
@@ -29,45 +29,45 @@ class Style {
     ),
     textTheme: TextTheme(
       bodyLarge: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             ),
       bodyMedium: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             ),
       bodySmall: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             ),
       titleLarge: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             ),
       titleMedium: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             ),
       titleSmall: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kPrimaryColor,
             ),
     ),
@@ -84,10 +84,10 @@ class Style {
       style: ButtonStyle(
         textStyle: WidgetStateProperty.all(
           isArabic()
-              ? GoogleFonts.elMessiri(
+              ? GoogleFonts.dmSans(
                   color: AppColors.kPrimaryColor,
                 )
-              : GoogleFonts.elMessiri(
+              : GoogleFonts.dmSans(
                   color: AppColors.kPrimaryColor,
                 ),
         ),
@@ -115,7 +115,7 @@ class Style {
     appBarTheme: AppBarTheme(
       backgroundColor: (AppColors.kDarkPrimaryColor),
       elevation: 0,
-      titleTextStyle: GoogleFonts.elMessiri(
+      titleTextStyle: GoogleFonts.dmSans(
         color: AppColors.kWhiteColor,
         fontSize: 18.sp,
       ),
@@ -129,45 +129,45 @@ class Style {
     ),
     textTheme: TextTheme(
       bodyLarge: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             ),
       bodyMedium: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             ),
       bodySmall: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             ),
       titleLarge: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             ),
       titleMedium: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             ),
       titleSmall: isArabic()
-          ? GoogleFonts.elMessiri(
+          ? GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             )
-          : GoogleFonts.elMessiri(
+          : GoogleFonts.dmSans(
               color: AppColors.kWhiteColor,
             ),
     ),
@@ -188,7 +188,7 @@ class Style {
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
         textStyle: WidgetStateProperty.all(
-          GoogleFonts.elMessiri(
+          GoogleFonts.dmSans(
             color: AppColors.kWhiteColor,
           ),
         ),
